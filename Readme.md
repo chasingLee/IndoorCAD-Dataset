@@ -1,6 +1,7 @@
 # IndoorCAD-Dataset
 
-This repo contains our code when processing the data of the dataset-IndoorCAD, including data-processing,model-alignment,Scene-sys and statistic collector.
+This repo contains our code when processing the data of the dataset-IndoorCAD, including data-processing,model-alignment,Scene-sys and statistic collector. 
+The dataset processed is storaged at huggingface https://huggingface.co/datasets/anon-neurips-2026/IndoorCAD
 
 ---
 
@@ -10,7 +11,10 @@ This repo contains our code when processing the data of the dataset-IndoorCAD, i
 The full pipeline runs in the following order:
 
 ```
-CAD_PROCESS(process the original data to STEP\MESH\Brep,as well as rendering the model)  →  Align_model(the process and prompt of aligning the furniture model with VLM)  →  Scene_sys(the pipline of transfering 3D-FROMT layout to cad layout,furniture retrivel and placement,rendering)  →  Statistic_collect
+CAD_PROCESS(process the original data to STEP\MESH\Brep,as well as rendering the model)  →  
+Align_model(the process and prompt of aligning the furniture model with VLM)  →  
+Scene_sys(the pipline of transfering 3D-FROMT layout to cad layout,furniture retrivel and placement,rendering)  →  
+Statistic_collect
 ```
 
 ---
