@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data / outputs (local paths, not versioned)
+*.step
+*.STEP
+*.stl
+*.STL
+*.json
+!environment.yml
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Checkpoints
+*_ckpt.json
+*_checkpoint.json
