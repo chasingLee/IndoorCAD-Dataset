@@ -1,7 +1,10 @@
 # IndoorCAD-Dataset
 
 This repo contains our code when processing the data of the dataset-IndoorCAD, including data-processing,model-alignment,Scene-sys and statistic collector. 
-The dataset processed is storaged at huggingface https://huggingface.co/datasets/anon-neurips-2026/IndoorCAD
+
+The dataset processed is storaged at huggingface https://huggingface.co/datasets/anon-neurips-2026/IndoorCAD . 
+
+We provide a folder of small sample in this repository (./Sample),allowing to easily download and preview the dataset content. 
 
 ---
 
