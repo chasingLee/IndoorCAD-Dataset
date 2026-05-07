@@ -23,16 +23,16 @@ Thumbs.db
 desktop.ini
 
 # Data / outputs (local paths, not versioned)
-*.step
-*.STEP
-*.stl
-*.STL
-*.json
+!*.step
+!*.STEP
+!*.stl
+!*.STL
+!*.json
 !environment.yml
-*.csv
-*.png
-*.jpg
-*.jpeg
+!*.csv
+!*.png
+!*.jpg
+!*.jpeg
 
 # Checkpoints
 *_ckpt.json

@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        90.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": -90.0,
+    "upright_group": 6,
+    "front_angle_index": 2,
+    "p1_confidence": "high",
+    "p2_confidence": "high",
+    "p1_vlm_decision": {
+        "reasoning": "The desk is correctly oriented when its flat work surface is facing upward and its base is on the ground plane. G1, G2, G3, and G4 show the model lying on its side or upside-down, with the legs or underside facing up. G5 shows the model upside-down, with the top surface facing down. G6 shows the model with the flat top surface facing up and the legs supporting it from below, which is the natural upright position for a desk.",
+        "upright_group": 6,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The front face of a desk typically includes features like drawers, a modesty panel, or a keyboard tray, which are designed to be user-facing. In Angle 2 (90°), the view shows the full width of the desk with a visible front edge and a structure that suggests a front-facing panel or drawer area. The other angles show the side or back of the desk, which lack these user-facing features. Therefore, Angle 2 is most likely showing the front face.",
+        "front_angle_index": 2,
+        "confidence": "high"
+    },
+    "category_hint": "Desk",
+    "timestamp": "2026-04-26 00:35:27"
+}

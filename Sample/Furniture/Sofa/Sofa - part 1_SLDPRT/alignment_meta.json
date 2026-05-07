@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        90.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": 0.0,
+    "upright_group": 6,
+    "front_angle_index": 1,
+    "p1_confidence": "high",
+    "p2_confidence": "high",
+    "p1_vlm_decision": {
+        "reasoning": "The sofa model is correctly oriented when its functional top surface (seat cushions) faces upward and its base rests on the ground plane. G1 shows the model lying on its side with the backrest facing up. G2 and G3 show the model tilted with the backrest facing forward or sideways. G4 shows the model on its side with the seat cushions facing down. G5 shows the model lying on its back with the seat cushions facing down. G6 shows the model in a natural upright position with the seat cushions on top, armrests on both sides, and the base resting on the ground plane, matching the expected orientation of a sofa.",
+        "upright_group": 6,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The front face of a sofa is typically the side with armrests on both sides and the backrest facing forward. In Angle 1 (0°), the sofa is oriented such that the backrest is visible and the armrests are on both sides, which is the standard front-facing view. In Angle 2 (90°), the sofa is viewed from the side, showing only one armrest. In Angle 3 (180°), the sofa is viewed from the back, showing the rear of the backrest. In Angle 4 (270°), the sofa is viewed from the opposite side, showing the other armrest. Therefore, Angle 1 shows the front face directly facing the camera.",
+        "front_angle_index": 1,
+        "confidence": "high"
+    },
+    "category_hint": "Sofa",
+    "timestamp": "2026-04-26 11:37:44"
+}

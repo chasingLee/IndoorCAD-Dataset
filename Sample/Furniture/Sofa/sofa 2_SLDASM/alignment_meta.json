@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        90.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": 0.0,
+    "upright_group": 6,
+    "front_angle_index": 1,
+    "p1_confidence": "high",
+    "p2_confidence": "high",
+    "p1_vlm_decision": {
+        "reasoning": "The sofa is correctly oriented when its functional top surface (seat cushions) faces upward and its base rests on the ground plane. G1 shows the sofa lying on its side (top surface horizontal, not vertical). G2 shows the sofa lying on its back (seat cushions facing sideways). G3 and G4 show the sofa standing vertically but with the seat cushions at the top, which is not typical for a sofa (this would be a cabinet-like orientation). G5 shows the sofa lying on its back with the seat cushions facing the ground. G6 shows the sofa in a natural upright position: seat cushions on top, backrest facing forward, and base resting on the ground plane. This matches the expected orientation for a sofa.",
+        "upright_group": 6,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The front face of a sofa is typically the side that shows armrests on both sides and the backrest, designed for user seating. Angle 1 (0°) shows the sofa with both armrests visible and the backrest facing forward, which matches the description of the front face. Angle 2 (90°) and Angle 4 (270°) show the side profiles, while Angle 3 (180°) shows the back of the sofa. Therefore, Angle 1 is the front view.",
+        "front_angle_index": 1,
+        "confidence": "high"
+    },
+    "category_hint": "Sofa",
+    "timestamp": "2026-04-26 11:41:11"
+}

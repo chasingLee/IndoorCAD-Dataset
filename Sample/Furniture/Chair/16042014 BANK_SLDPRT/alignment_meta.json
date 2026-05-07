@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        90.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": 0.0,
+    "upright_group": 6,
+    "front_angle_index": 1,
+    "p1_confidence": "high",
+    "p2_confidence": "high",
+    "p1_vlm_decision": {
+        "reasoning": "The chair model is correctly upright when its seat (flat top surface) is facing upward and its legs are on the ground plane. In G1, G2, G3, G4, and G5, the model is rotated such that the seat is on the side or upside down, with the backrest or legs facing upward. In G6, the seat is clearly the top surface, the backrest is vertical, and the legs are on the ground, matching the natural upright orientation of a chair. The views confirm the chair is properly positioned with the functional top surface up and base down.",
+        "upright_group": 6,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The front face of a chair is typically the side with the backrest visible from the seated user's perspective. In Angle 1 (0°), the backrest of the central chair is clearly facing the viewer, indicating the front face. In Angle 3 (180°), the backrest is facing away, showing the seat. Angles 2 and 4 show side profiles. Therefore, Angle 1 shows the front face directly facing the camera.",
+        "front_angle_index": 1,
+        "confidence": "high"
+    },
+    "category_hint": "Chair",
+    "timestamp": "2026-04-27 00:33:14"
+}

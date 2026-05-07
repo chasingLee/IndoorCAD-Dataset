@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        90.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": 0.0,
+    "upright_group": 6,
+    "front_angle_index": 1,
+    "p1_confidence": "high",
+    "p2_confidence": "high",
+    "p1_vlm_decision": {
+        "reasoning": "The model is a desktop object resembling a keyboard tray or a slim desk with a keyboard surface. The correct upright position should have the flat work surface (keyboard area) facing upward and the base resting on the ground plane. In G1, the model is lying on its side with the keyboard surface horizontal but not resting on the ground. In G2, the model is lying flat on its back, with the underside facing up. In G3, the model is standing vertically with the keyboard surface facing forward, but the base is not on the ground plane. In G4, the model is standing vertically with the keyboard surface facing forward, but the base is not on the ground plane. In G5, the model is lying on its side with the keyboard surface facing upward, but the base is not on the ground plane. In G6, the model is standing upright with the keyboard surface facing upward and the base resting on the ground plane. Therefore, G6 shows the model in its natural upright standing position.",
+        "upright_group": 6,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The front face of a desktop object typically includes features like a keyboard tray or drawers, which are designed for user interaction. In Angle 1, the keyboard is clearly visible and positioned as if ready for use, indicating this is the front-facing view. The other angles show the side or back of the object, with no user-facing features visible. Therefore, Angle 1 shows the front face directly facing the camera.",
+        "front_angle_index": 1,
+        "confidence": "high"
+    },
+    "category_hint": "Desktop_object",
+    "timestamp": "2026-04-26 05:02:31"
+}

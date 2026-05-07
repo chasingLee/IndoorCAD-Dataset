@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        90.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": 0.0,
+    "upright_group": 6,
+    "front_angle_index": 1,
+    "p1_confidence": "high",
+    "p2_confidence": "high",
+    "p1_vlm_decision": {
+        "reasoning": "The chair is correctly upright when its seat is horizontal and facing upward, the backrest is vertical, and the legs are on the ground plane. G1, G2, G3, G4, and G5 all show the chair tilted or lying on its side, with the seat or backrest not properly oriented. In G6, the chair is clearly standing upright: the seat is flat and facing up, the backrest is vertical, and the legs are on the ground plane. The views confirm a natural seating orientation with the backrest visible from the front. This matches the functional top surface (seat) facing up and the base resting naturally.",
+        "upright_group": 6,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The front face of a chair is typically the side with the backrest visible from the seated user's perspective. In Angle 1 (0°), the backrest is fully visible and oriented directly toward the camera, indicating the front face. In Angle 3 (180°), the backrest is also visible but from the opposite side, which would be the back of the chair. Angles 2 and 4 show the side profiles of the chair, not the front. Therefore, Angle 1 shows the front face directly facing the camera.",
+        "front_angle_index": 1,
+        "confidence": "high"
+    },
+    "category_hint": "Chair",
+    "timestamp": "2026-04-26 05:10:18"
+}

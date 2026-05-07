@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        -90.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": 0.0,
+    "upright_group": 5,
+    "front_angle_index": 1,
+    "p1_confidence": "high",
+    "p2_confidence": "low",
+    "p1_vlm_decision": {
+        "reasoning": "The lamp model is a tall, rectangular object with a decorative pattern. In groups G1–G4, the model is oriented horizontally, lying on its side, which is not the upright position. In G5 and G6, the model is standing vertically, with its base on the ground plane and the top facing upward. However, G5 shows the model with a wider base and a more natural standing posture, while G6 appears slightly tilted and less stable. The functional top surface (shade or light-emitting opening) is clearly facing upward in G5, and the base rests naturally on the ground. Therefore, G5 represents the correct upright orientation.",
+        "upright_group": 5,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The lamp model is symmetrical and has no visible switch or decorative element on any side. However, since the front face is typically the most user-facing surface, and all sides appear identical, the front face cannot be determined based on visual cues. Therefore, the default front face is assumed to be the one shown at Angle 1 (0°), which is the standard starting orientation.",
+        "front_angle_index": 1,
+        "confidence": "low"
+    },
+    "category_hint": "Lamp",
+    "timestamp": "2026-04-26 04:20:49"
+}

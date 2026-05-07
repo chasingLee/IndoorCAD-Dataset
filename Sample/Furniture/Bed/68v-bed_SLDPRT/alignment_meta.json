@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        90.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": 0.0,
+    "upright_group": 6,
+    "front_angle_index": 1,
+    "p1_confidence": "high",
+    "p2_confidence": "high",
+    "p1_vlm_decision": {
+        "reasoning": "The bed is correctly oriented when the mattress surface is horizontal and facing upward, and the headboard is vertical and at the head end. G5 shows the bed lying flat on its side, with the mattress surface horizontal but the headboard on the side, which is incorrect. G6 shows the bed in a natural upright position: the mattress surface is horizontal and facing up, the headboard is vertical and at the head, and the base rests on the ground plane. The other groups (G1–G4) show the bed tilted or rotated such that the functional top surface is not upward or the base is not properly grounded. G6 is the only group where the bed appears in its intended upright, functional orientation.",
+        "upright_group": 6,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The front face of a bed is typically the headboard side, which is the taller, more decorative structure. In Angle 1 (0°), the headboard is clearly visible and facing the camera directly. In Angle 2 (90°), the side of the bed is shown. In Angle 3 (180°), the foot of the bed is facing the camera, which is the opposite of the front. In Angle 4 (270°), the other side of the bed is shown. Therefore, Angle 1 shows the front face directly facing the camera.",
+        "front_angle_index": 1,
+        "confidence": "high"
+    },
+    "category_hint": "Bed",
+    "timestamp": "2026-04-26 00:03:26"
+}

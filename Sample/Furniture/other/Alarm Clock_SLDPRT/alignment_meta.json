@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        180.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": 0.0,
+    "upright_group": 2,
+    "front_angle_index": 1,
+    "p1_confidence": "high",
+    "p2_confidence": "high",
+    "p1_vlm_decision": {
+        "reasoning": "The model is a desk object resembling a clock or alarm with a flat base, a main body, and a top surface. In G1, the model is lying on its side with the top surface facing sideways. In G2, the model is upright with the flat top surface facing upward and the base resting on the ground plane. In G3 and G4, the model is tilted or lying on its side. In G5, the model is on its side with the base facing upward. In G6, the model is upright with the top surface facing upward and the base on the ground, but the orientation appears to be rotated compared to G2. However, G2 shows the model in the most natural upright position with the functional front face (with drawers or controls) facing forward and the base flat on the ground. G6 is also upright but appears to be rotated 90 degrees from G2, which may not be the intended orientation. G2 is the most consistent with a standard upright desk object.",
+        "upright_group": 2,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The front face of a desktop object typically includes features like drawers, a modesty panel, or a keyboard tray. In Angle 1 (0°), the object shows a flat front surface with two spherical protrusions and a horizontal bar connecting them, which resembles a keyboard tray or a front panel with handles. This configuration is consistent with a user-facing front. In Angle 2 (90°) and Angle 4 (270°), the object is shown from the side, revealing a handle and a side profile, which are not typical front features. Angle 3 (180°) shows the back of the object, which lacks the front-facing elements. Therefore, Angle 1 is the most likely to show the front face.",
+        "front_angle_index": 1,
+        "confidence": "high"
+    },
+    "category_hint": "Desktop_object",
+    "timestamp": "2026-04-26 04:54:42"
+}

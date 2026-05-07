@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        -90.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": -180.0,
+    "upright_group": 5,
+    "front_angle_index": 3,
+    "p1_confidence": "high",
+    "p2_confidence": "high",
+    "p1_vlm_decision": {
+        "reasoning": "The cabinet is correctly upright when its base rests on the ground plane and its functional front face (with doors/drawers) is vertical, while the top surface is horizontal and facing upward. G1 shows the cabinet lying on its side (top surface horizontal but not facing up, base not on ground). G2 shows the cabinet upside-down (top surface facing down). G3 shows the cabinet on its side with the base not on the ground. G4 shows the cabinet on its side with the base not on the ground. G5 shows the cabinet upright with the base on the ground, top surface horizontal and facing up, and the front face (with drawers) vertical. G6 shows the cabinet upright but with the top surface facing down, indicating it's upside-down. Therefore, G5 is the only group where the cabinet is in a natural upright standing position.",
+        "upright_group": 5,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The front face of a cabinet typically includes doors, drawers, or handles. In Angle 3 (180°), the cabinet's front face is fully visible with multiple drawers and a handle, indicating it is the primary user-facing side. The other angles show side or back views, lacking the typical front features. Therefore, Angle 3 shows the front face directly facing the camera.",
+        "front_angle_index": 3,
+        "confidence": "high"
+    },
+    "category_hint": "Cabinet(storage_furniture)",
+    "timestamp": "2026-04-26 12:29:57"
+}

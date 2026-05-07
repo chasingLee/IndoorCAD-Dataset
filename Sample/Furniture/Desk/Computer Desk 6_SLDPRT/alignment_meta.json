@@ -1,0 +1,25 @@
+{
+    "status": "verified",
+    "align_rotation": [
+        90.0,
+        0.0,
+        0.0
+    ],
+    "extra_rz": 0.0,
+    "upright_group": 6,
+    "front_angle_index": 1,
+    "p1_confidence": "high",
+    "p2_confidence": "high",
+    "p1_vlm_decision": {
+        "reasoning": "The desk is correctly oriented when its flat work surface is the top and its base rests on the ground plane. G1 and G2 show the desk lying on its side (top surface horizontal but not facing up). G3 and G4 show the desk standing vertically with the top surface facing sideways or down, not upward. G5 shows the desk lying on its back, with the top surface facing down. G6 shows the desk in a natural upright position: the flat work surface is horizontal and facing up, the base is on the ground, and the front face (with drawers) is oriented forward. This matches the functional design of a desk.",
+        "upright_group": 6,
+        "confidence": "high"
+    },
+    "p2_vlm_decision": {
+        "reasoning": "The front face of a desk is typically the side with drawers, a modesty panel, or a keyboard tray, which is the most user-facing surface. In Angle 1 (0°), the desk is shown with drawers clearly visible on the left and right sides, and the front of the desk is facing the viewer. In Angle 2 (90°), the side of the desk is shown, with no drawers visible. In Angle 3 (180°), the back of the desk is visible, showing no drawers. In Angle 4 (270°), the other side of the desk is shown, again without drawers. Therefore, Angle 1 shows the front face directly facing the camera.",
+        "front_angle_index": 1,
+        "confidence": "high"
+    },
+    "category_hint": "Desk",
+    "timestamp": "2026-04-26 03:17:12"
+}
