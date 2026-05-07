@@ -8,3 +8,4 @@ Sample/** filter=lfs diff=lfs merge=lfs -text
 *.STL filter=lfs diff=lfs merge=lfs -text
 *.step filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
+D:/Lzm_Temp_Data/Code_to_git/Sample/Scene/layout_0ac97866-dccb-47c3-b220-79712041e187_MasterBedroom-4017/layout_0ac97866-dccb-47c3-b220-79712041e187_MasterBedroom-4017.step filter=lfs diff=lfs merge=lfs -text
